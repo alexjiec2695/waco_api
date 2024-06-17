@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7233fb19-5c97-49ad-8205-a96d92f581af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di/di.go" beforeDir="false" afterPath="$PROJECT_DIR$/di/di.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/handlers/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/handlers/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/storage/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/storage/connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/createUsers.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/users/createUsers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/createUsers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/users/createUsers_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/getUsers.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/users/getUsers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/getUsers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/users/getUsers_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/login/login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/login_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/login/login_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/pokemon.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/pokemon/pokemon.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/pokemon_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/pokemon/pokemon_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/updateUsers.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/users/updateUsers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecases/updateUsers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecases/users/updateUsers_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

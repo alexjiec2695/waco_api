@@ -1,6 +1,9 @@
 package di
 
 import (
+	"fmt"
+	"github.com/joho/godotenv"
+	"os"
 	"pokeapi/infrastructure/handlers"
 	"pokeapi/infrastructure/rest"
 	resty2 "pokeapi/infrastructure/resty"
@@ -12,7 +15,7 @@ import (
 
 func Start() error {
 	server := rest.NewServer()
-	str := ""
+	str := goDotEnvVariable("STR")
 	persistence, err := storage.NewConnectionStorage(str)
 	if err != nil {
 		return err
@@ -27,4 +30,16 @@ func Start() error {
 	routers := handlers.NewHandler(server, createUsers, login, updateUsers, getUsers, pokes)
 
 	return routers.Start()
+}
+
+func goDotEnvVariable(key string) string {
+
+	// load .env file
+	err := godotenv.Load(".env")
+
+	if err != nil {
+		fmt.Println("Error loading .env file")
+	}
+
+	return os.Getenv(key)
 }
